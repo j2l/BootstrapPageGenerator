@@ -384,13 +384,13 @@ $(document).ready(function() {
 	initContainer();
 	$('body.edit .demo').on("click","[data-target=#editorModal]",function(e) {
 		e.preventDefault();
-		currenteditor = $(this).parent().parent().find('.jason');
+		currenteditor = $(this).parent().parent().find('.view'); // only for CKEditor, not for download
 		var eText = currenteditor.html();
 		contenthandle.setData(eText);
 	});
 	$("#savecontent").click(function(e) {
 		e.preventDefault();
-		currenteditor.html(contenthandle.getData());
+		currenteditor.html(contenthandle.getData()); // CKEditor
 	});
 	$("[data-target=#downloadModal]").click(function(e) {
 		e.preventDefault();
