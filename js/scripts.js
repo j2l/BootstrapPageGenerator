@@ -384,7 +384,7 @@ $(document).ready(function() {
 	initContainer();
 	$('body.edit .demo').on("click","[data-target=#editorModal]",function(e) {
 		e.preventDefault();
-		currenteditor = $(this).parent().parent().find('.view');
+		currenteditor = $(this).parent().parent().find('.jason');
 		var eText = currenteditor.html();
 		contenthandle.setData(eText);
 	});
