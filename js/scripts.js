@@ -502,7 +502,6 @@ function saveHtml()
 			}
 			}
 			else{
-			webpage = webpage;
 			var blob = new Blob([webpage], {type: "text/html;charset=utf-8"});
 			saveAs(blob, "webpage.html");
 		}
