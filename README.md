@@ -20,4 +20,4 @@ New :
 Update a new section under css called font-awesome
 
 You can use also inside the ckeditor the font-awesome and added a new project with Bootstrap 4 alpha 6 visit here for the version 4 https://github.com/Vegetam/BoostrapPageGenerator4
-
+ 
